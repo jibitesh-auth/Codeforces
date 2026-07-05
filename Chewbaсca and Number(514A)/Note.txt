@@ -1,0 +1,2 @@
+stoi : string to int
+stoll : string to long long

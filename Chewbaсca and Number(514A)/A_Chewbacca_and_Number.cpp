@@ -1,3 +1,5 @@
+//Problem Link: https://codeforces.com/contest/514/problem/A
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -12,12 +14,9 @@ int main(){
             continue;
         }
         if(c < b){
-            a[i] = c + '0';
-
+            a[i] = c + '0'; //'0'-> 48
         }
-
     }
-
     cout << a;
     return 0;
 
