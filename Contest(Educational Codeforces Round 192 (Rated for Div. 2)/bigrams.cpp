@@ -1,33 +1,34 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
+
 int main(){
-    unsigned int t;
-    cin>>t;
-    unsigned int k;
-    string st[t];
-    for(int i=0;i<t;i++){
-        cin>>k;
-        int s=0;
-        unsigned int ar[k];
-       
-        for(int j=0;j<k;j++){
-            cin>>ar[j];
-            s+=ar[j];    
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t;
+    cin >> t;
+    while(t--){
+        int k;
+        cin >> k;
+        bool ok = false;
+        int twice = 0;
+
+        for(int i=0; i<k; i++){
+            int x;
+            cin >> x;
+            if(x >= 3){
+                ok = true; 
+            }
+            if(x == 2){
+                twice++;
+            }
         }
-        if(s>=(k+2)){
-            st[i]="Yes";
+        if(ok || twice >= 2){
+            cout << "YES\n";
         }
         else{
-            st[i]="No";
+            cout << "NO\n";
         }
     }
-    for(int i=0;i<t;i++){
-        cout<<st[i]<<endl;
-    }
+    return 0;
 }
- 
- 
- 
- 
- 
  
