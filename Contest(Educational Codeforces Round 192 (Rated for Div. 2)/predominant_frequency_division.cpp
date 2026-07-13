@@ -56,7 +56,7 @@
 
 
 
-// //O(n2)
+// O(n2)
 
 // #include <bits/stdc++.h>
 // using namespace std;
@@ -119,7 +119,7 @@
 //     }
 // }
 
-//O(n)
+// O(n)
 
 #include <bits/stdc++.h>
 using namespace std;
