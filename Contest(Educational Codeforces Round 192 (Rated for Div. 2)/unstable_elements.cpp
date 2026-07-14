@@ -1,3 +1,75 @@
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     unsigned int t;
+//     cin>>t;
+//     while(t--){
+//         int n,k;
+//         cin>>n>>k;
+//         vector<int> arr;
+//         vector<int> v;
+//         for(int i=0;i<n;i++){
+//             int x;
+//             cin>>x;
+//             arr.push_back(x);
+//             if(i==0 || (arr[i]!=arr[i-1])){
+//                 v.push_back(i);
+//             }
+//         }
+//         int c=0;
+//         while(v.size()!=0){
+//             int r=rand()%2;
+//             switch (r)
+//             {
+//             case 0:
+//                 for(int i=(int)v.size()-1;i>=0;i--){
+                    
+//                        arr.erase(arr.begin()+v[i]);
+                       
+                       
+                    
+//                 }
+//                 v.clear();
+//                 for(int i=0;i<arr.size();i++){
+//                     if(i==0 || (arr[i]!=arr[i-1])){
+//                         v.push_back(i);
+//                     }
+//                 }
+
+               
+//                 break;
+            
+//             case 1:
+//                 for(int i=(int)v.size()-1;i>=0;i--){
+                  
+//                        arr.insert(arr.begin()+v[i],arr[v[i]]);
+                       
+                    
+//                 }
+//                 v.clear();
+//                  for(int i=0;i<arr.size();i++){
+//                     if(i==0 || (arr[i]!=arr[i-1])){
+//                         v.push_back(i);
+//                     }
+//                 }
+//                 break;
+//             }
+//             if(arr.size()==k){
+//                 c++;
+//             }
+//         }
+//         cout<<c;
+        
+
+
+
+//     }
+//     return 0;
+// }
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
