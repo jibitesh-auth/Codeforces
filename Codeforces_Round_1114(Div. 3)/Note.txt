@@ -1,0 +1,32 @@
+#Codeforces Round — Contest 2254
+
+**Riptide:**
+-> Middle value does not change.
+-> Highest element decreases and lowest element increases by 1. Eventually, they come closer to the middle value.
+-> min(v[2] - v[1], v[1] - v[0])
+
+
+**Evanescent:**
+-> Check whether the present value is different from the previous one. (If yes, then it will be the start of a new group.)
+-> To find which element to delete:
+Check whether the present value is different from its neighbouring elements, then check whether the neighbouring elements are different or not.
+If yes, delete (x = 2), otherwise x = max(1, x). {x will be 2 or 1}
+-> (group - x)
+
+
+**Marenol_Easy:**
+-> Swap (around the index): If elements are different
+-> Operation performed: Shifting of '1' by every 2 steps
+-> Counting even and odd indices (containing 1) in both the strings
+
+
+**Marenol_Hard:**
+-> No. of 1s present at even indices of string a will always be present at even indices of string b. (Same goes for odd indices.)
+-> Subtract the number of 1s at even indices of string a from the number of 1s at even indices of string b. Subtract the number of 1s at odd indices of string a from the number of 1s at odd indices of string b.
+-> Add them up and divide by 2 (1 is shifting every 2 steps).
+
+
+
+
+
+
