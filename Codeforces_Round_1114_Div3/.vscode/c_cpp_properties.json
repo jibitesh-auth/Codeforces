@@ -1,9 +1,9 @@
 {
     "configurations": [
         {
-            "name": "Win32",
-            "compilerPath": "C:/MinGW/bin/g++.exe",
-            "intelliSenseMode": "windows-gcc-x86",
+            "name": "UCRT64",
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "intelliSenseMode": "windows-gcc-x64",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
